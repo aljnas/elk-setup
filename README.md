@@ -20,6 +20,47 @@ Script automatizado para instalar y configurar la pila **ELK (Elasticsearch, Kib
 
 1. Clona este repositorio:
 ```bash
-git clone git@github.com:aljinas/elk-setup.git
+git clone git@github.com:aljnas/elk-setup.git
 cd elk-setup
+```
 
+2. Dale permisos al script:
+```bash
+chmod +x elk-setup.sh
+```
+
+3. Ejecuta:
+```bash
+./elk-setup.sh
+```
+
+---
+
+## 🔒 Requisitos
+
+- Kali o Debian actualizado
+- Acceso sudo
+- Conexión a Internet
+- Kibana activo en `http://localhost:5601`
+
+---
+
+## 🧠 Resultado esperado
+
+Un dashboard llamado **Seguridad SSH** con visualizaciones como:
+
+- 📊 Gráfico: intentos fallidos por hora
+- 🌐 Tabla: top IPs atacantes
+- 👤 Tabla: usuarios objetivo
+
+---
+
+## 🎨 Logo
+
+![ELK Setup Logo](assets/elk-setup-logo.png)
+
+---
+
+## 📃 Licencia
+
+MIT © [aljnas](https://github.com/aljnas)
